@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const Daniele());
+  runApp(const MeuAplicativo());
 }
 
 class MeuAplicativo extends StatelessWidget {
@@ -16,7 +16,7 @@ class MeuAplicativo extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const PrimeiraPagina(titulo: 'Daniele'),
+      home: const PrimeiraPagina(titulo: 'Primeiro Aplicativo'),
     );
   }
 }
